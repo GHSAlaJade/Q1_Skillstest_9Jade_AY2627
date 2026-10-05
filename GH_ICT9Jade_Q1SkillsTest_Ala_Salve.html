@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+    <link rel="stylesheet" href="styles_Q1SkillsTest.css">
+</head>
+<body>
+    <div class="splitbox">
+        <div class="left-half">
+            <div class="header-section">
+                <h1>OBMC Robotics Club<br>Application Form</h1>
+                <p class="intro">Welcome! Please fill out this form to apply for our school's Robotics Club.</p>
+            </div>
+            <form action="#">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="First Name, Last Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="student@obmontessori.edu.ph" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group half-width">
+                        <label for="grade">Grade Level:</label>
+                        <select id="grade" name="grade" required>
+                            <option value="">Grade</option>
+                            <option value="Grade 7">Grade 7</option>
+                            <option value="Grade 8">Grade 8</option>
+                            <option value="Grade 9">Grade 9</option>
+                            <option value="Grade 10">Grade 10</option>
+                        </select>
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="section">Section:</label>
+                        <select id="section" name="section" required>
+                            <option value="">Section</option>
+                            <option value="Emerald">Emerald</option>
+                            <option value="Ruby">Ruby</option>
+                            <option value="Sapphire">Sapphire</option>
+                            <option value="Topaz">Topaz</option>
+                            <option value="Jade">Jade</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <div class="radio-inline">
+                        <input type="radio" id="male" name="gender" value="Male" checked>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>What are your skills?</label>
+                    <ul class="checkbox-list">
+                            <input type="checkbox" id="coding" name="skills" value="Coding">
+                            <label for="coding">Coding</label>
+                            <input type="checkbox" id="design" name="skills" value="Design">
+                            <label for="design">Design</label>
+                            <input type="checkbox" id="electronics" name="skills" value="Electronics">
+                            <label for="electronics">Electronics</label>
+                    </ul>
+                </div>
+                <div class="form-group">
+                    <label for="reason">Tell us why you want to join:</label>
+                    <textarea id="reason" name="reason" rows="3" placeholder="Write your interest here..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+            <hr class="divider">
+                <h3>Application Steps:</h3>
+                <ol>
+                    <li>Complete this online form.</li>
+                    <li>Wait for room interview schedule.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="right-half">
+            <img src="https://ih1.redbubble.net/image.5808748833.3234/fposter,small,wall_texture,square_product,600x600.jpg" alt="Robotics Graphic">
+        </div>
+    </div>
+</body>
+</html>
